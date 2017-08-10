@@ -25,7 +25,7 @@ The Delphix Live ROI is an Excel Workbook that:
   
 # Explanation of Worksheets
 
-Dashboard Worksheet 
+## Dashboard Worksheet 
 	- Sums the number of times VDBs are PROVISION, REFRESH and REWIND.	
 	- Legacy Time - Time is used to take to perform an operation in the past [Customer Input Data]	
 	- Time in Delphix - Total elapsed time it took in Delphix to perform operations	
@@ -34,19 +34,19 @@ Dashboard Worksheet
  	- Storage Savings - Disk space saved (coming from Delphix and stored in Data1 sheet) * storage cost [Customer Input Data]
 	- Combined Savings - Total of all "Value of saved time" + storage savings
 		
-Config Worksheet
+## Config Worksheet
 	- Configuration Data: Only change the fields in blue	
 		
-Data Worksheet
+## Data Worksheet
 	- Data on jobs returned from the Delphix Engine
   
-Data1 Worksheet
+## Data1 Worksheet
 	- Data on storage returned from the Delphix Engine
   	
-Read Me Worksheet
+## Read Me Worksheet
 	- Help on using Live ROI
   
-Reference Industry Data Worksheet
+## Reference Industry Data Worksheet
 	- Sample of key metrics for 25 Delphix customers
 	
 # Disclaimer
