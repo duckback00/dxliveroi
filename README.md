@@ -2,8 +2,6 @@
 
 Delphix Live ROI
 
-(EDITS are a WIP)
-
 Goal: Provide to the user a real-time value (quantified in $) from using Delphix.
 
 The Delphix Live ROI is an Excel Workbook that:
@@ -19,10 +17,31 @@ How to use Live ROI:
     - Make any edits you want in the "Current/Legacy Customer Process" section
   - press the "Fetch Data"
   - Confirm that the connection parameters are corrrect
-  - Wait a few seconds for the Live ROI to establish connection into the Delphix Engine and retrive the data
+  - Wait for a panel to be displayed confirming that Live ROI established connection and retrived data
   - You will see the Live ROI updating the "Dashboard" sheet
+  
+Explanation of Worksheets:
 
-More to come...
-
-
-
+Dashboard Worksheet 
+  Sums the number of times VDBs are PROVISION, REFRESH and REWIND.	
+	Legacy Time - Time is used to take to perform an operation in the past [Customer Input Data]	
+	Time in Delphix - Total elapsed time it took in Delphix to perform operations	
+	Hours Saved with Delphix - Legacy time minus elapsed time	
+	Value of Saved Time - Hours saved with Delphix * blended labor cost [Customer Input Data])
+  Storage Savings - Disk space saved (coming from Delphix and stored in Data1 sheet) * storage cost [Customer Input Data]
+  Combined Savings - Total of all "Value of saved time" + storage savings
+		
+Config Worksheet
+  Configuration Data: Only change the fields in blue	
+		
+Data Worksheet
+  Data on jobs returned from the Delphix Engine
+  
+Data1 Worksheet
+  Data on storage returned from the Delphix Engine
+  	
+Read Me Worksheet
+  Help on using Live ROI
+  
+Reference Industry Data Worksheet
+  Sample of key metrics for 25 Delphix customers
